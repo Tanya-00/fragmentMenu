@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/princess"
+    tools:context=".Princessmononoke">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Принцесса Мононоке"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="Работа выпущена студией Ghibli в 1997 году. В том же году стала самым кассовым фильмом в истории Японии, но впоследствии уступила эту позицию Титанику"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ashitaka" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ашитака - парень, которого постигло проклять. Он отправился в путь, чтобы найти корень проклятья"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/san" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="187dp"
+        android:text="Сан - она же принцесса Мононоке. Выращена богиней-волчицей. Готова отдать жизнь за лес и его обитателей"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/eboshi" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="8dp"
+        android:text="Эбоши - глава Железного города. Противница Сан, желающая убить лесного бога"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</FrameLayout>
